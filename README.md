@@ -16,4 +16,4 @@ make
 ./build/main
 ```
 ## Cleanup 
-You can run ```bash make remove-lib``` to remove the library (only after installing and ```bash make clean``` will clear out the build folder
+You can run ```make remove-lib``` to remove the library (only after installing and ```make clean``` will clear out the build folder
