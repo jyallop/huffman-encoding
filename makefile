@@ -1,6 +1,12 @@
-all: lib
+all: clean
 	mkdir -p build
 	raco exe -o build/main main.rkt
 
 lib:
-	echo "needs to be setup"
+	raco pkg install ./huffman
+
+remove-lib:
+	raco pkg remove huffman
+
+clean:
+	rm -rf build/*

@@ -1,5 +1,7 @@
 #lang racket
 
+(provide reverse-list)
+
 (define add
   (lambda (x #:second [y 0] . rest)
     (+ x y (foldl + 0 rest))))
