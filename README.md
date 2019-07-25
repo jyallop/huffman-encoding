@@ -15,3 +15,5 @@ The application can be built and run as long as you have raco installed using th
 make
 ./build/main
 ```
+## Cleanup 
+You can run ```bash make remove-lib``` to remove the library (only after installing and ```bash make clean``` will clear out the build folder
